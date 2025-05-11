@@ -2238,7 +2238,7 @@ span {
   max-width: 200px;
 }
 .btn-submit3:hover {
-  background-color: #3CA200;
+  background-color: var(--yellow);
 }
 
 /*----------------------------------------------
@@ -4739,6 +4739,9 @@ img {
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
+}
+.widget-card-post-items-content h5:hover a {
+  color: var(--theme);
 }
 .widget-card-post-items-content p {
   display: flex;
@@ -9222,13 +9225,31 @@ img {
     row-gap: 10px;
   }
 }
+.blog4-card-content-meta__user {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.blog4-card-content-meta__calendar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.blog4-card-content-meta__comment {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.blog4-card-content-meta i {
+  color: var(--theme);
+}
 .blog4-card-content-meta img {
   padding-right: 6px;
 }
 .blog4-card-content__title {
   padding-bottom: 15px;
 }
-.blog4-card-content__title h5 {
+.blog4-card-content__title h2 {
   color: var(--title);
   font-family: "Raleway", sans-serif;
   font-size: 30px;
@@ -9299,7 +9320,7 @@ img {
   padding-top: 48px;
   padding-bottom: 25px;
 }
-.blog4-card-content__title2 h5 {
+.blog4-card-content__title2 h2 {
   color: var(--title);
   font-family: "Outfit", sans-serif;
   font-size: 30px;
@@ -9347,6 +9368,8 @@ img {
   gap: 10px;
 }
 .blog4-card-content-tagShare-tags__title {
+  display: flex;
+  align-items: center;
   color: var(--title);
   font-family: "Raleway", sans-serif;
   font-size: 20px;
@@ -9369,6 +9392,10 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+.blog4-card-content-tagShare-tags__name a:hover {
+  color: var(--white);
+  background: var(--theme);
 }
 .blog4-card-content-tagShare-shareicon {
   display: flex;
@@ -9477,13 +9504,16 @@ img {
 }
 .blog4-card-comment-profile-content__reply .btn {
   display: flex;
-  color: var(--theme);
+  color: var(--title);
   font-family: "DM Sans", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
   text-transform: uppercase;
+}
+.blog4-card-comment-profile-content__reply .btn:hover {
+  color: var(--theme);
 }
 .blog4-card-comment-profile-content__reply .btn span {
   cursor: pointer;

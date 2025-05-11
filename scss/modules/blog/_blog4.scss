@@ -34,13 +34,31 @@
                     flex-wrap: wrap;
                     row-gap: 10px;
                 }
+                &__user {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+                &__calendar {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+                &__comment {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+                i {
+                    color: $theme-color;
+                }
                 img {
                     padding-right: 6px;
                 }
             }
             &__title{
                 padding-bottom: 15px;
-                h5 {
+                h2 {
                     color: $title-color;
                     font-family: $title-font;
                     font-size: 30px;
@@ -107,7 +125,7 @@
             &__title2{
                 padding-top: 48px;
                 padding-bottom: 25px;
-                h5 {
+                h2 {
                     color: $title-color;
                     font-family: $paragraph-font2;
                     font-size: 30px;
@@ -152,6 +170,8 @@
                     display: flex;
                     gap: 10px;
                     &__title {
+                        display: flex;
+                        align-items: center;
                         color: $title-color;
                         font-family: $title-font;
                         font-size: 20px;
@@ -175,6 +195,10 @@
                             font-style: normal;
                             font-weight: 400;
                             line-height: 24px; 
+                            &:hover {
+                                color: $white;
+                                background: $theme-color;
+                            }
                         }
                     }
                 }
@@ -287,13 +311,16 @@
                         right: 17%;
                         .btn {
                             display: flex;
-                            color: $theme-color;
+                            color: $title-color;
                             font-family: $body-font;
                             font-size: 14px;
                             font-style: normal;
                             font-weight: 700;
                             line-height: 24px;
                             text-transform: uppercase;
+                            &:hover {
+                                color: $theme-color;
+                            }
     
                             span {
                                 cursor: pointer;

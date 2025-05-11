@@ -241,6 +241,11 @@
             font-style: normal;
             font-weight: 600;
             line-height: 28px; 
+            &:hover {
+              a {
+                color: $theme-color;
+              }
+            }
           }
           p {
             display: flex;
