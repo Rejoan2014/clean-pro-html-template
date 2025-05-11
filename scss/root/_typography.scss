@@ -164,7 +164,7 @@ a {
     color: $title-color;
     @include transition;
     &:hover {
-        color: $title-color2;
+        color: $theme-color;
     }
 }
 

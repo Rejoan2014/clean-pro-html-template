@@ -739,7 +739,7 @@ a {
   transition: all 0.4s ease-in-out;
 }
 a:hover {
-  color: var(--title2);
+  color: var(--theme);
 }
 
 span {
@@ -3415,9 +3415,6 @@ img {
   color: var(--white);
   font-size: 20px;
 }
-.slider-btn .style1.slider-next {
-  background: var(--theme);
-}
 .slider-btn .style1 img {
   width: 24px;
   height: 24px;
@@ -3429,6 +3426,10 @@ img {
     width: 50px;
     height: 50px;
   }
+}
+.slider-btn .style1:hover {
+  background: var(--theme);
+  transition: all 0.4s ease-in-out;
 }
 .slider-btn .style2 {
   display: flex;
@@ -3444,9 +3445,6 @@ img {
   color: var(--white);
   font-size: 20px;
 }
-.slider-btn .style2.slider-next {
-  background: var(--yellow);
-}
 .slider-btn .style2 img {
   width: 24px;
   height: 24px;
@@ -3458,6 +3456,10 @@ img {
     width: 50px;
     height: 50px;
   }
+}
+.slider-btn .style2:hover {
+  background: var(--yellow);
+  transition: all 0.4s ease-in-out;
 }
 
 .progress-wrap:not(:last-child) {
@@ -8409,6 +8411,10 @@ img {
     padding: 22px 16px;
   }
 }
+.contact1-info-btn__book a:hover {
+  background: var(--theme);
+  transition: all 0.4s ease-in-out;
+}
 .contact1-info-btn__contact a {
   display: inline-flex;
   height: 54px;
@@ -8431,6 +8437,10 @@ img {
     height: 45px;
     padding: 22px 16px;
   }
+}
+.contact1-info-btn__contact a:hover {
+  background: var(--theme);
+  transition: all 0.4s ease-in-out;
 }
 
 .contact2-content {

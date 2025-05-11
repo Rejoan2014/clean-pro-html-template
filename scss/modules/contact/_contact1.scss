@@ -107,6 +107,10 @@
                         height: 45px;
                         padding: 22px 16px;
                     } 
+                    &:hover {
+                        background: $theme-color;     
+                        @include transition;               
+                    }
                 }
             }
             &__contact {
@@ -130,6 +134,10 @@
                         height: 45px;
                         padding: 22px 16px;
                     } 
+                    &:hover {
+                        background: $theme-color;     
+                        @include transition;               
+                    }
                 }
             }
         }
