@@ -31,13 +31,31 @@
                     flex-wrap: wrap;
                     row-gap: 10px;
                 }
+                &__user {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+                &__calendar {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+                &__comment {
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+                i {
+                    color: $theme-color;
+                }
                 img {
                     padding-right: 6px;
                 }
             }
             &__title{
                 padding-bottom: 15px;
-                h5 {
+                h2 {
                     color: $title-color4;
                     font-family: $paragraph-font2;
                     font-size: 30px;
@@ -46,6 +64,9 @@
                     line-height: 40px; /* 133.333% */
                     @include breakpoint (max-sm){
                         font-size: 28px;
+                    }
+                    &:hover {
+                        color: $theme-color;
                     }
                 }
             }

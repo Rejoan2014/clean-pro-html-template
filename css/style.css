@@ -9155,13 +9155,31 @@ img {
     row-gap: 10px;
   }
 }
+.blog3-card-content-meta__user {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.blog3-card-content-meta__calendar {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.blog3-card-content-meta__comment {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.blog3-card-content-meta i {
+  color: var(--theme);
+}
 .blog3-card-content-meta img {
   padding-right: 6px;
 }
 .blog3-card-content__title {
   padding-bottom: 15px;
 }
-.blog3-card-content__title h5 {
+.blog3-card-content__title h2 {
   color: var(--title4);
   font-family: "Outfit", sans-serif;
   font-size: 30px;
@@ -9170,9 +9188,12 @@ img {
   line-height: 40px; /* 133.333% */
 }
 @media (max-width: 575px) {
-  .blog3-card-content__title h5 {
+  .blog3-card-content__title h2 {
     font-size: 28px;
   }
+}
+.blog3-card-content__title h2:hover {
+  color: var(--theme);
 }
 .blog3-card-content__desc {
   padding-right: 5px;
