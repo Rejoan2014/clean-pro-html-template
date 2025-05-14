@@ -1,0 +1,58 @@
+@use '../../root' as *;
+@use '../../utilities' as *;
+
+
+/*------------------------------------
+		3.2 Header Style 2
+----------------------------------*/
+
+.header-style-2{
+	padding: 0 0;
+	.header-wrap{
+		margin-top: 0;
+		margin-top: 25px;
+		border-top: 1px solid rgba(255, 255, 255, 0.15);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+		background: rgba(15, 15, 15, 0.50);
+		backdrop-filter: blur(15px);
+		padding: 0 100px;
+
+		@include breakpoint(max-xl){
+			padding: 13px 30px;
+			margin-top: 10px;
+		}
+	}	
+}
+.line{
+	position: absolute;
+	width: 1px;
+    height: 99%;
+	background: rgba(255, 255, 255, 0.15);
+	@include breakpoint(max-xxl){
+		display: none;
+	}
+	&-1{
+		top: 50px;
+		left: 100px;
+	}
+	&-2{
+		top: 50px;
+		left: 35.1%;
+
+		@include breakpoint(max-xxxl){
+			left: 513px;
+		}
+	}
+	&-3{
+		top: 50px;
+		right: 35.1%;
+		@include breakpoint(max-xxxl){
+			right: 513px;
+		}
+	}
+	&-4{
+		top: 50px;
+		right: 100px;
+	}
+}
+
