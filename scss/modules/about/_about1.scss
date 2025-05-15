@@ -29,11 +29,11 @@
         }
     }
     &-content {
-            padding: 60px 60px;
+            padding: 48px 60px;
             position: relative;
             z-index: 7;
             @include breakpoint (max-xxl) {
-                padding: 60px 30px;
+                padding: 48px 30px;
             }
             @include breakpoint (max-xl) {
                 display: flex;
@@ -74,42 +74,27 @@
                 @include breakpoint (max-md){
                     padding: 10px 5px;
                 }
-            }
-            &__two {
-                display: inline-flex;
-                padding: 25px;
-                justify-content: center;
-                align-items: center;
-                gap: 10px;
-                border-radius: 2px;
-                background: $theme-color;
-                color: $white;
-                font-family: $title-font;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: 28px; /* 155.556% */
-                @include breakpoint (max-lg){
-                    padding: 25px 15px;
-                }
-                @include breakpoint (max-md){
-                    font-size: 14px;
-                    padding: 15px 5px;
-                }
-            }
-            &__three {
-                display: inline-flex;
-                padding: 20px 25px;
-                justify-content: center;
-                align-items: center;
-                gap: 10px; 
-                border-radius: 2px;
-                background: $white;
-                @include breakpoint (max-lg){
-                    padding: 20px 15px;
-                }
-                @include breakpoint (max-md){
-                    padding: 10px 5px;
+                &.active-btn-style {
+                    display: inline-flex;
+                    padding: 25px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 2px;
+                    background: $theme-color;
+                    color: $white;
+                    font-family: $title-font;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 28px; /* 155.556% */
+                    @include breakpoint (max-lg){
+                        padding: 25px 15px;
+                    }
+                    @include breakpoint (max-md){
+                        font-size: 14px;
+                        padding: 15px 5px;
+                    }
                 }
             }
         }
