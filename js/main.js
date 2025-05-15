@@ -480,6 +480,32 @@
       });
     });
 
+    
+    /*-----------------------------------
+      Tab section
+    -----------------------------------*/
+    const $buttons = $(".about1-content-btn__one");
+    const $contents = $(".about1-content-info");
+
+    $buttons.on("click", function () {
+        const target = $(this).data("tab");
+
+        // Toggle active styles
+        $buttons.removeClass("active-btn-style");
+        $(this).addClass("active-btn-style");
+
+        // Toggle content
+        $contents.addClass("d-none");
+        $("#" + target).removeClass("d-none");
+    });
+
+    // Show tab2 by default
+    $buttons.removeClass("active-btn-style");
+    $buttons.filter('[data-tab="tab2"]').addClass("active-btn-style");
+    $contents.addClass("d-none");
+    $("#tab2").removeClass("d-none");
+
+
 
   }); // End Document Ready Function
 
@@ -488,5 +514,4 @@
 
 })(jQuery); // End jQuery
 
- 
  
