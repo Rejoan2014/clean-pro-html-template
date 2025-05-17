@@ -264,7 +264,8 @@
 
 	&.header-1{
  		.header-wrap{
-			margin-top: 0;
+			margin-top: 10px;
+			margin-bottom: 10px;
 			@include breakpoint(max-xl){
 				padding: 14px 0;
 			}

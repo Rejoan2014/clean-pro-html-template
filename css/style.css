@@ -5133,7 +5133,8 @@ img {
   backdrop-filter: blur(20px);
 }
 .sticky.header-1 .header-wrap {
-  margin-top: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1199px) {
   .sticky.header-1 .header-wrap {
