@@ -106,11 +106,13 @@
                         &::before {
                             visibility: visible;
                             opacity: 1;
+                            @include transition;
                         }
                         img {
                             width: 437px;
                             height: 466px;
                             max-width: 437px;
+                            @include transition;
                         }
                     }
                     &-content {            

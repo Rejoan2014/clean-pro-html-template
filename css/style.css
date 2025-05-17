@@ -7384,11 +7384,13 @@ img {
 .project2-card:hover .project2-card-thumb::before {
   visibility: visible;
   opacity: 1;
+  transition: all 0.4s ease-in-out;
 }
 .project2-card:hover .project2-card-thumb img {
   width: 437px;
   height: 466px;
   max-width: 437px;
+  transition: all 0.4s ease-in-out;
 }
 .project2-card:hover .project2-card-content {
   display: block;
@@ -7633,11 +7635,13 @@ img {
 .project4-card:hover .project4-card-thumb::before {
   visibility: visible;
   opacity: 1;
+  transition: all 0.4s ease-in-out;
 }
 .project4-card:hover .project4-card-thumb img {
   width: 437px;
   height: 466px;
   max-width: 437px;
+  transition: all 0.4s ease-in-out;
 }
 .project4-card:hover .project4-card-content {
   display: block;

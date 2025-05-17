@@ -40,17 +40,15 @@
                 inset: 0;
                 background: linear-gradient(180deg, rgba(7, 124, 234, 0.20) 11.16%, #074886 100%);
                 z-index: 1;
-                pointer-events: none; // Allow clicks to pass through
+                pointer-events: none; 
             }
         
             img {
                 width: 294px;
                 height: 466px;
                 flex-shrink: 0;
-                // object-fit: cover;
                 display: block;
                 border-radius: 10px;
-                // max-width: 254px;
             }      
         }  
         &-content {
@@ -105,11 +103,14 @@
                         &::before {
                             visibility: visible;
                             opacity: 1;
+                            @include transition;
                         }
                         img {
                             width: 437px;
                             height: 466px;
                             max-width: 437px;
+                            @include transition;
+
                         }
                     }
                     &-content {            
