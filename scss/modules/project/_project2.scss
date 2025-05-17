@@ -75,7 +75,7 @@
           }
     
           &__title {
-              color: var(--White, #FFF);
+              color: $white;
               text-align: center;
               font-family: $title-font;
               font-size: 24px;
@@ -83,6 +83,9 @@
               font-weight: 600;
               line-height: 34px; /* 141.667% */
               margin-bottom: 10px;
+              &:hover {
+                color: $theme-color;
+              }
           }
     
           &__desc {

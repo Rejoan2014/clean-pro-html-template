@@ -185,6 +185,7 @@
 	background-color: $white;
 
 	@include breakpoint(max-xl){
+		top: 0;
 		padding: 0 40px;
 	}
 	@include breakpoint(max-lg){

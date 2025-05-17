@@ -126,6 +126,9 @@
                 font-weight: 600;
                 line-height: 34px; /* 141.667% */
                 padding-bottom: 13px;
+                &:hover {
+                    color: $theme-color;
+                }
             }
             &__desc {
                 color: $gray;

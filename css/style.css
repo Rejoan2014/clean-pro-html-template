@@ -5060,6 +5060,7 @@ img {
 }
 @media (max-width: 1199px) {
   .header-1 {
+    top: 0;
     padding: 0 40px;
   }
 }
@@ -6972,6 +6973,9 @@ img {
   line-height: 34px; /* 141.667% */
   padding-bottom: 13px;
 }
+.service2-card-content__title:hover {
+  color: var(--theme);
+}
 .service2-card-content__desc {
   color: var(--gray);
   text-align: center;
@@ -7362,7 +7366,7 @@ img {
   margin-bottom: 15px;
 }
 .project2-card-content__title {
-  color: var(--White, #FFF);
+  color: var(--white);
   text-align: center;
   font-family: "Raleway", sans-serif;
   font-size: 24px;
@@ -7370,6 +7374,9 @@ img {
   font-weight: 600;
   line-height: 34px; /* 141.667% */
   margin-bottom: 10px;
+}
+.project2-card-content__title:hover {
+  color: var(--theme);
 }
 .project2-card-content__desc {
   color: var(--smoke3);
