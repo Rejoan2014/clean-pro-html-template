@@ -5075,6 +5075,7 @@ img {
 @media (max-width: 1199px) {
   .header-1 .header-wrap {
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 575px) {
