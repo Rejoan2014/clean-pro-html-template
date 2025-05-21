@@ -7592,34 +7592,24 @@ img {
   pointer-events: none;
 }
 .project4-card-thumb img {
-  width: 264px;
-  height: 466px;
-  flex-shrink: 0;
-  display: block;
   border-radius: 10px;
-  max-width: 264px;
 }
 .project4-card-content {
   display: none;
   position: absolute;
-  bottom: -40%;
-  width: 437px;
-  height: 466px;
-  flex-shrink: 0;
+  bottom: 0;
   text-align: center;
   padding: 40px 30px;
   z-index: 2;
   border-radius: 20px;
 }
-@media (max-width: 499px) {
-  .project4-card-content {
-    bottom: -23%;
-    width: 100%;
-    height: 466px;
-  }
-}
 .project4-card-content__icon {
   margin-bottom: 15px;
+}
+@media (max-width: 1199px) {
+  .project4-card-content__icon img {
+    width: 25%;
+  }
 }
 .project4-card-content__title {
   color: var(--white);
@@ -7646,14 +7636,9 @@ img {
   opacity: 1;
   transition: all 0.4s ease-in-out;
 }
-.project4-card:hover .project4-card-thumb img {
-  width: 437px;
-  height: 466px;
-  max-width: 437px;
-  transition: all 0.4s ease-in-out;
-}
 .project4-card:hover .project4-card-content {
   display: block;
+  transition: all 0.4s ease-in-out;
 }
 
 /* 9. Testimonial */
