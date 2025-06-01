@@ -9839,7 +9839,7 @@ img {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 34px; /* 141.667% */
+  line-height: 34px;
 }
 .workProcess1-card__desc {
   color: var(--gray);
