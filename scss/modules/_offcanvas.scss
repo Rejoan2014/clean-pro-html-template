@@ -39,7 +39,7 @@
 	transform: translateX(0);
 
 	@include breakpoint(max-sm){
-		width: 100%;
+		width: 320px;
 	}
 }
 

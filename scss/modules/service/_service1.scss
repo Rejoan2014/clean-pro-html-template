@@ -178,4 +178,12 @@
 
         }
     }
+
+    .widget-card{
+        margin-bottom: 0;
+
+        &:last-child{
+            padding-bottom: 5px;
+        }
+    }
 }
