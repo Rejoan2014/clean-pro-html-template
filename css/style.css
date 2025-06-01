@@ -10314,6 +10314,7 @@ img {
 }
 .footer1-bottom {
   padding-top: 21px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
